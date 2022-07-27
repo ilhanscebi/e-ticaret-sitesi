@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Beğenilerim</title>
+  </head>
+  <body>
+    <div id="panel"></div>
+
+    <script>
+      var btn = document.createElement("button");
+
+      btn.setAttribute("id", "btn1");
+      btn.setAttribute("name", "btn1");
+      btn.innerText = "Beğenilerim";
+
+      btn.style.cssText =
+        "color:yellow; background:black; font-size:16px; padding:8px;";
+
+      btn.onclick = function () {
+        window.alert("boş sayfa çık haburdan");
+      };
+
+      var panelDiv = document.getElementById("panel");
+      panelDiv.appendChild(btn);
+    </script>
+  </body>
+</html>

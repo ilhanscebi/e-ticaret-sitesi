@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="giris.css" />
+    <link rel="stylesheet" href="kullancı.html" />
+  </head>
+  <body></body>
+</html>
+<body class="align">
+  <div class="grid">
+    <form action="https://httpbin.org/post" method="POST" class="form login">
+      <div class="form__field">
+        <label for="login__username"
+          ><svg class="icon">
+            <use xlink:href="#icon-user"></use></svg
+          ><span class="hidden">Kullanıcı Adı</span></label
+        >
+        <input
+          autocomplete="username"
+          id="Kullanıcı Adı"
+          type="text"
+          name="Kullanıcı Adı"
+          class="form__input"
+          placeholder="Kullanıcı Adı"
+          required
+        />
+      </div>
+
+      <div class="form__field">
+        <label for="login__password"
+          ><svg class="icon">
+            <use xlink:href="#icon-lock"></use></svg
+          ><span class="hidden">Password</span></label
+        >
+        <input
+          id="Şifre"
+          type="password"
+          name="Şifre"
+          class="form__input"
+          placeholder="Şifre"
+          required
+        />
+      </div>
+
+      <div class="form__field">
+        <input type="submit" value="Giriş" />
+      </div>
+    </form>
+
+  </svg>
+</body>
